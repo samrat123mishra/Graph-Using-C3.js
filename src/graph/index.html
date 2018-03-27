@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LingroHub</title>
+    <link href="../common/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../common/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/c3.css" rel="stylesheet" type="text/css">
+    <link href="../common/css/common.css" rel="stylesheet" type="text/css">
+    <link href="../common/css/slider.css" rel="stylesheet" type="text/css">
+    <link href="../common/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.0/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main-container">
+        <div class="col-sm-12 widget-panel" id="widget_wrapper">
+            <div class="col-sm-12 headertext">
+                <div class="instruction-text pull-left">
+                    <h4 id="chart-heading"></h4>
+                    <span id="chart-instruction" data-ellipsis data-max-char="150"></span>
+                </div>
+                <div class="pull-right" id="fullscreen_container">
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="col-sm-12 text-center content-container">
+                <div class="tabpanel">
+                    <div>
+                        <!-- Nav tabs -->
+                        <ul id="nav-bar" class="nav nav-tabs" role="tablist"></ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="Rural">
+                                <div id="container">
+                                    <div id="chart1" role="application" aria-label="This is graph"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="graph_bottom_player_control"></div>
+                </div>
+            </div>
+            <div class="col-sm-12 source-footer"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+{
+    "chartHeading": "Las dos principales exportaciones mineras, por país, cambios del 2006 al 2013",
+    "chartInstruction": "",
+    "chartType": "bar",
+    "sourceRef":"Fuente : The Observatory of Economic Complexity (http://atlas.media.mit.edu/en/)",
+    "showAll": false,
+    "settings": {
+        "axis": {
+            "x": {
+                "label": {
+                    "text": "*Combina las rentas mineras y petroleras en el período 2009-2014, por tratarse de país en el que el sector minero es pequeño en comparación con el sector petrolero",
+                    "position": "outer-center"
+                },
+                "type": "category",
+                "categories": [  
+			"Venezuela",
+			"Colombia",
+			"Bolivia",
+			"Ecuador",
+			"Chile",
+			"Paraguay",
+			"Perú",
+			"Uruguay",
+			"Argentina",
+			"Brasil",
+			"Nicaragua",
+			"México",
+			"Costa Rica"
+			
+                ],
+                "tick": {
+                    "rotate": 90,
+                    "multiline": false,
+                    "culling": {
+                        "max": 25 
+                    }
+                },
+                "height": 100
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": true
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "2006",
+            "alias": " ",
+            "data": {
+                "columns": [
+		
+                  ["Exportación Principal", 90, 41,66,54,38,40,34,35,19,16,31,37,46],	
+		     ["Segunda exportación principal", 5,13,6,19,29,19,20,13,15,13,18,17,24]
+		 
+		    
+                ],
+		    
+		    "groups": [
+		 ["Exportación Principal", "Segunda exportación principal"]
+		 ] 
+            }
+        },
+	{
+            "audioPath": "",
+            "tabHeading": "2013",
+            "alias": " ",
+            "data": {
+                "columns": [
+		
+                     ["Exportación Principal", 98,67,67,55,31,47,40,31,21,22,34,34,60],	
+		     ["Segunda exportación principal",1,7,8,16,27,17,21,25,20,15,18,22,14]
+		 
+		    
+               
+		    
+                ],
+		    
+		    "groups": [
+		 ["Exportación Principal", "Segunda exportación principal"]
+		 ] 
+            }
+        }
+    ] 
+		
+}

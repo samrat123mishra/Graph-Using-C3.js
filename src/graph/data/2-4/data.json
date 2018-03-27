@@ -1,0 +1,100 @@
+{
+    "chartHeading": " ",
+    "chartInstruction": "Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "line",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "1500",
+                    "1820",
+                    "1870",
+		    "1913"
+                ]
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+           "audioPath": "",
+             "tabHeading": "Niveles del PBI per cápita, 1500-1913",
+            "alias": "Niveles del PBI per cápita, 1500-1913",
+            "data": {
+                "columns": [
+                    [
+                        "Europa Occidental",
+                        774,
+                        1232,
+			1974,	
+			3473
+                    ],
+                    [
+                        "EE.UU., Canadá, Australia, Nueva Zelandia",
+                        400,
+			1201,
+			2431,
+			5257
+                    ],
+                    [
+                        "Japón",
+                        500,
+			669,
+			737,
+			1387
+                    ],
+                    [
+                        "Asia (menos Japón)",
+                        572,
+			575,
+			543,
+			640
+                    ],
+                    [
+                        "América Latina",
+                        416,
+			665,	
+			698,	
+			1511
+
+                    ],
+		    [
+                        "Europa Oriental y Repúblicas Ex-Soviéticas",
+                        483,
+			667,
+			917,
+			1501
+                    ],
+                    [
+                        "Africa",
+                        400,
+			418,
+			444,	
+			585
+                    ],
+		       [
+                        "Global",
+                        565,
+			667,	
+			867,
+			1510
+                    ]
+                ]
+            }
+        }
+        
+    ]
+}

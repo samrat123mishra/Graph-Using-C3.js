@@ -1,0 +1,60 @@
+/* fullscreen css */
+
+button.fullscreen-btn {
+    background-image: url(../../common/icons/Fullscreen.png) !important;
+    padding: 6px;
+    height: 37px;
+    width: 37px;
+}
+
+button.ellipsis {
+    padding: 0 5px;
+    border: none;
+    background: inherit;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.backgroud-no-repeat {
+    background-repeat: no-repeat !important;
+}
+
+button.no-outline-btn {
+    background: transparent;
+    border: 0 !important;
+}
+
+#widget_wrapper:-moz-full-screen {
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+
+#widget_wrapper:fullscreen {
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+
+#widget_wrapper:-webkit-full-screen {
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+
+#widget_wrapper:-ms-fullscreen {
+    margin: 0px !important;
+    height: 100%;
+    width: 100%;
+}
+#fullscreen_btn[disabled="disabled"]{
+    opacity: 0.3;
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+    svg{
+        min-height:600px;
+    }
+}

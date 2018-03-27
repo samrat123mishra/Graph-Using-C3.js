@@ -1,0 +1,64 @@
+{
+    "chartHeading": "Abortos inseguros:  Las América versus otras regiones, circa 2012.",
+    "chartInstruction": "",
+    "chartType": "bar",
+    "sourceRef":"Nota:  Para EE.UU. la cifra es insignificante.",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Sudamérica",
+                     "Centroamérica",
+                     "África",
+                     "Caribe", 
+                     "Asia",
+                     "Oceanía",
+                     "Europa"                              
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 9 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "No. de abortos inseguros por cada 1.000 mujeres",
+            "alias": "No. de abortos inseguros por cada 1.000 mujeres",
+            "data": {
+                "columns":
+                        [
+                    [
+                       "No. de abortos inseguros por cada 1.000 mujeres",
+                        32,
+                        29,
+                        28,
+                        18,
+                        11,
+                        8,
+                        2
+                    ]
+                    
+                ]
+            }
+        }
+    ]
+}

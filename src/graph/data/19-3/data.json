@@ -1,0 +1,146 @@
+{
+    "chartHeading": "Matriculación bruta en universidades",
+    "chartInstruction": "",
+    "chartType": "line",
+    "sourceRef":"Fuente: Bayer. H.  04/10/2017  (2017. Oct. 4). Gratuidad no significa equidad.  La Situación.cl <br/> http://lasituacion.cl/2017/10/04/gratuidad-no-significa-equidad/?platform=hootsuite",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Alrededor de 1980 ",
+                    "Alrededor de 2015 "
+
+                ]
+            }
+
+        },
+        "point": {
+            "r": 2
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "audioPath": "",
+            "tabHeading": "Matriculación bruta en universidades",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Chile",
+                        12.7761297225952,
+                        88.577293395996
+                    ],
+                    [
+                        "Colombia",
+                        8.76352024078369,
+                        55.6572685241699
+                    ],
+                    [
+                        "Paraguay",
+                        8.86942958831787,
+                        35.0808486938477
+                    ],
+                    [
+                        "Guatemala",
+                        5.62534999847412,
+                        21.846809387207
+                    ],
+                    [
+                        "Argentina",
+                        21.7282104492188,
+                        82.9173889160156
+                    ],
+                    [
+                        "Uruguay",
+                        15.5369300842285,
+                        55.5662689208984
+                    ],
+                    [
+                        "Lat. América promedio*",
+                        12.2165950139364,
+                        56.6076463063558
+                    ],
+                    [
+                        "Honduras",
+                        7.30927991867065,
+                        22.0593700408936
+                    ],
+                    [
+                        "El Salvador",
+                        10.9030504226685,
+                        29.1310997009277
+                    ],
+                    [
+                        "Costa Rica",
+                        20.7007102966309,
+                        53.6296615600586
+                    ],
+                    [
+                        "Perú",
+                        17.3293590545654,
+                        40.5127906799316
+                    ],
+                    [
+                        "México",
+                        13.1012401580811,
+                        29.9409008026123
+                    ],
+                    [
+                        "Cuba",
+                        16.948169708252,
+                        36.2803993225098
+                    ],
+                    [
+                        "Panamá",
+                        20.3001098632813,
+                        38.7393493652344
+                    ],
+                    [
+                        "Ecuador",
+                        33.222728729248,
+                        40.4808616638184
+                    ],
+                    [
+                        "Puerto Rico",
+                        0,
+                        84.3837814331055
+                    ],
+                    [
+                        "Brasil",
+                        0,
+                        50.6049194335938
+                    ],
+                    [
+                        "Rep. Dominicana",
+                        0,
+                        50.1163902282715
+                    ],
+                    [
+                        "Venezuela",
+                        19.3906707763672,
+                        0
+                    ],
+                    [
+                        "Nicaragua",
+                        10.7854204177856,
+                        0
+                    ]
+
+                ]
+            }
+        }
+
+
+    ]
+}

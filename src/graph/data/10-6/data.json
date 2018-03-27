@@ -1,0 +1,74 @@
+{
+    "chartHeading": "Matriz eléctrica de Costa Rica y Chile, alrededor de 2015 ",
+    "chartInstruction": "Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "bar",
+    "sourceRef":"Fuente : http://www.energia2050.cl/wp-content/uploads/2016/08/Energy-2050-Chile-s-Energy-Policy.pdf <br/> http://presidencia.go.cr/comunicados/2017/01/costa-rica-supera-98-de-generacion-renovable-por-segundo-ano-consecutivo/",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Agua",
+                    "Viento",
+                    "Biomasa",
+                    "Sol",
+                    "Otros",
+                    "No-Renovable"               
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 9 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Tasa de aborto por región, promedio 2010-2014",
+            "alias": "",
+            "data": {
+                "columns":
+                        [
+                    [
+                        "Costa Rica",
+                        74.35,
+                        10.30,
+                        0.72,
+                        0.01,
+                        12.74,
+                        1.88
+
+
+                        
+                    ],
+                    [
+                        "Chile",
+                        34,
+                        2,
+                        4,
+                        1,
+                        7,
+                        52
+                  
+                    ]
+                ]
+            }
+        }
+    ]
+}

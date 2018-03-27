@@ -1,0 +1,98 @@
+{
+    "chartHeading": "Coeficiente de GINI, Latinamérica y el Caribe v. EE.UU.",
+    "chartInstruction": "",
+    "chartType": "line",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Circa 1989",
+                    "Circa 1995",
+                    "Circa 1999",
+                    "Circa 2001",
+                    "Circa 2002",
+                    "Circa 2003",
+                    "Circa 2004",
+                    "Circa 2005",
+                    "Circa 2006",
+                    "Circa 2007",
+                    "Circa 2008",
+                    "Circa 2009",
+                    "Circa 2010",
+                    "Circa 2011",
+                    "Circa 2012",
+                    "Circa 2013",
+                    "Circa 2014"
+                ]
+            }
+
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "audioPath": "",
+            "tabHeading": "Coeficiente de GINI, Latinamérica y el Caribe v. EE.UU.",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Latinoamérica y el Caribe",
+                        0.490007297777778,
+                        0.518272485833333,
+                        0.531253998235294,
+                        0.531848383571429,
+                        0.536733951428571,
+                        0.529617943076923,
+                        0.517013951428571,
+                        0.5186575025,
+                        0.514697950625,
+                        0.511233789166667,
+                        0.503959965,
+                        0.495633280666667,
+                        0.4866540625,
+                        0.4888847,
+                        0.478302149285714,
+                        0.480339054285714,
+                        0.47314419125
+                    ],
+                    [
+                        "EE.UU.",
+                        0.348,
+                        0.361,
+                        0.354,
+                        0.36,
+                        0.376,
+                        0.374,
+                        0.36,
+                        0.38,
+                        0.384,
+                        0.376,
+                        0.378,
+                        0.379,
+                        0.38,
+                        0.389,
+                        0.389,
+                        0.396,
+                        0.394
+                    ]
+                ]
+            }
+        }
+
+
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "chartHeading": "Resultados de cuotas de género",
+    "chartInstruction": "Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "bar",
+    "sourceRef":"Fuente: https://www.guttmacher.org/fact-sheet/induced-abortion-worldwide",
+    "settings": {
+        "axis": {
+            "x": {
+                "label": {
+                    "text": "* Entre las edades 15 y 44 años",
+                    "position": "outer-center"
+                },
+                "type": "category",
+                "categories": [
+                    "Latinoamérica y el Caribe",
+                    "Asia",
+                    "África",
+                    "Europa",
+                    "Oceanía",
+                    "Norteamérica"               
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 9 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Tasa de aborto por región, promedio 2010-2014",
+            "alias": "",
+            "data": {
+                "columns":
+                        [
+                    [
+                        "Porcentaje de abortos por cada 1000 mujeres* Promedio 1990-94",
+                        40,
+                        41,
+                        33,
+                        52,
+                        20,
+                        25
+
+                        
+                    ],
+                    [
+                        "Porcentaje de abortos por cada 1000 mujeres* Promedio 2010-2014",
+                        44,
+                        36,
+                        34,
+                        29,
+                        19,
+                        17                   
+                    ]
+                ]
+            }
+        }
+    ]
+}

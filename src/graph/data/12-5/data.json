@@ -1,0 +1,87 @@
+{
+    "chartHeading": "",
+    "chartInstruction": "",
+    "chartType": "bar",
+    "sourceRef":"Source:https://beta.ipu.org/file/2687/download?token=oc2hik70",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Nicaragua",
+                    "Perú",
+                    "Uruguay",
+                    "Colombia",
+                    "Chile",
+                    "Promedio para Latinoamérica",
+                    "Costa Rica",
+                    "Panamá",
+                    "Ecuador",
+                    "Bolivia",
+                    "Honduras",
+                    "Cuba",
+                    "Venezuela",
+                    "El Salvador",
+                    "República Dominicana",
+                    "Guatemala",
+                    "Argentina",
+                    "México",
+                    "Paraguay",
+                    "Brasil"
+                ],
+                "tick": {
+                    "rotate": 90,
+                    "multiline": false
+                },
+                "height": 100
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Género en los gabinetes 2017 ",
+        "alias": "",
+        "data": {
+            "columns": [
+                [
+                    "Porcentaje",
+                    52.9,
+                    36.8,
+                    35.7,
+                    35.3,
+                    34.8,
+                    33.5,
+                    30.4,
+                    29.4,
+                    27.5,
+                    27.3,
+                    27.3,
+                    25.9,
+                    24.2,
+                    21.4,
+                    20.8,
+                    18.8,
+                    17.4,
+                    15.8,
+                    15.4,
+                    4
+                ]
+
+            ]
+        }
+    }]
+}

@@ -1,0 +1,64 @@
+{
+    "chartHeading": "Mujeres en Liderazgo Empresarial",
+    "chartInstruction": "",
+    "chartType": "bar",
+    "sourceRef":"Fuente : https://publications.iadb.org/bitstream/handle/11319/7386/Female-Corporate-Leadership-in-Latin-America-and-the-Caribbean-Region-Representation-and-Firm-Level-Outcomes.pdf;sequence=1",
+    "settings": {
+        "axis": { 
+       "x": {     
+        "type": "category",           
+         "categories": ["Presidentes (Latinoamérica)", 
+            "Presidentes (EE.UU.)", 
+            "Junta de Directivos (Latinoamérica)", "Junta de Directivos (EE.UU.)", 
+            "Gerencia (Latinoamérica)",
+             "Gerencia (EE.UU.)"
+         ],
+         
+                "tick": {
+                    "culling": {
+                        "max": 10 
+                    }
+                }
+     
+           },     
+            "rotated": true 
+         
+          
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": true
+        },
+        "grid": {
+            "x": {
+                "show": true
+
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "audioPath": "",
+            "tabHeading": "Mujeres en Liderazgo Empresarial",
+            "alias": "",
+            "data": {
+                "columns": 
+                    [
+                         ["Mujer", 4.2, 4.2, 8.5, 9, 9.2, 12],           
+                         ["Varón", 95.8, 95.8, 91.5, 91, 90.8,88]
+    
+                   ],
+                "groups": [
+            ["Mujer", "Varón"]
+        ]
+            },
+            "color": {
+                "pattern": ["#52CF3B", "#3793EF"]
+            }
+        }
+    ]
+}

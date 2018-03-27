@@ -1,0 +1,85 @@
+{
+    "chartHeading": "Proporción promedio de mujeres en juntas directivas y en gerencia en el sector privado, 2013",
+    "chartInstruction": "Instructions:",
+    "chartType": "bar",
+    "sourceRef":"Fuente : https://publications.iadb.org/bitstream/handle/11319/7386/Female-Corporate-Leadership-in-Latin-America-and-the-Caribbean-Region-Representation-and-Firm-Level-Outcomes.pdf;sequence=1",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Con 0 mujeres",
+                    "Con 1 a 30 por ciento de mujeres",
+                    "Con más de 30 por ciento de mujeres"
+            
+                ]
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "audioPath": "",
+            "tabHeading": "Juntas Directivas",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Latinoamérica",
+                         63.00,
+                         27.00,
+                         9.80
+
+                    ],
+                    [
+                        "EE.UU.",
+                       56.00,
+                       38.00,
+                       6.50
+
+
+                    ]
+                    
+                ]
+            }
+        },
+        {
+            "audioPath": "",
+            "tabHeading": "Gerencias",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Latinoamérica",
+                         73.00,
+                         13.00,
+                         15.00
+
+
+                    ],
+                    [
+                        "EE.UU.",
+                       56.00,
+                       31.00,
+                       14.00
+
+
+                    ]
+                    
+                ]
+            }
+        }
+    ]
+}

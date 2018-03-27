@@ -1,0 +1,68 @@
+{
+    "chartHeading": "INTENSIDAD ENERGETICA (PROMEDIO)*",
+    "chartInstruction": "",
+    "chartType": "bar",
+    "sourceRef":"Fuente:  Balza, Lenin, Ramón Espinasa, y Tom Serebrisky (2015).",
+    "settings": {
+        "axis": {
+            "x": {
+                "label": {
+                    "text": "*Intensidad energética se define como el total de energía consumida dividida por el producto interno bruto.   ** Excepto China.",
+                    "position": "outer-center"
+                },
+                "type": "category",
+                "categories": [
+                    "China",
+                    "África",
+                    "Medio Oriente",
+                    "Asia**",
+                    "Latinoamérica y el caribe",
+                    "OECD"
+                ],
+
+                "tick": {
+                    "rotate": 90,
+                    "multiline": false
+                },
+                "height": 160
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "audioPath": "",
+            "tabHeading": "Average Energy Intencity by Region",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Average Energy Intencity by Region",
+                        594,
+                        530,
+                        462,
+                        440,
+                        230,
+                        130
+
+
+
+                    ]
+                ]
+            }
+        }
+
+    ]
+}

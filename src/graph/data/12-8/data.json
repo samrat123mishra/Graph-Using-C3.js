@@ -1,0 +1,72 @@
+{
+    "chartHeading": "Indice de brecha de género",
+    "chartInstruction": "",
+    "chartType": "scatter",
+    "sourceRef":"Fuente : Fuente: http://www3.weforum.org/docs/WEF_GGGR_2017.pdf",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Nicaragua",
+                    "Bolivia",
+                    "Cuba",
+                    "Argentina",
+                    "Colombia",
+                    "Costa Rica",
+                    "Ecuador",
+                    "Panamá",
+                    "Perú",
+                    "EE.UU.",
+                    "Honduras",
+                    "Uruguay",
+                    "Venezuela",
+                    "El Salvador",
+                    "Chile",
+                    "Rep. Dominicana",
+                    "México",
+                    "Brasil",
+                    "Paraguay",
+                    "Guatemala"
+
+
+                ],
+                "tick": {
+                    "rotate": 90,
+                    "multiline": false,
+                    "culling": {
+                        "max": 9
+                    }
+                },
+                "height": 100
+            },
+            "rotated": true
+        },
+        "point": {
+            "r": 5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Indice de Brecha de Género",
+        "alias": "",
+        "data": {
+            "columns": [
+                ["1996", 6, 17, 25, 34, 36, 41, 42, 43, 48, 49, 55, 56, 60, 62, 63, 70, 81, 90, 96, 110],
+                ["2001", 54, 60, 99, 111, 32, 104, 93, 62, 98, 19, 74, 91, 67, 97, 117, 95, 124, 83, 90, 101],
+                ["2009", 2, 14, 19, 21, 59, 27, 32, 51, 33, 96, 61, 53, 75, 56, 36, 69, 34, 110, 113, 109]
+            ]
+        }
+    }]
+}

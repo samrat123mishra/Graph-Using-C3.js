@@ -1,0 +1,112 @@
+{
+    "chartHeading": "",
+    "chartInstruction": "Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "bar",
+    "sourceRef":"Fuentes: CEPAL y OCDE",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "OCDE",
+                    "Latinoamérica",
+                    "Brasil",
+                    "Argentina",
+                    "Uruguay",
+                    "Nicaragua",
+                    "Costa Rica",
+                    "Bolivia",
+                    "Chile",
+                    "Ecuador",
+                    "Panamá",
+                    "Colombia",
+                    "Perú",
+                    "Honduras",
+                    "El Salvador",
+                    "Paraguay",
+                    "Rep. Dominicana",
+                    "Venezuela",
+                    "México",
+                    "Guatemala"
+                ],
+                "tick": {
+                    "rotate": 90,
+                    "multiline": false
+                },
+                "height": 100
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Ingreso proveniente de impuestos",
+        "alias": "",
+        "data": {
+            "columns": [
+                [
+                    "1990-1992",
+                    33.5,
+                    13.9,
+                    23.7,
+                    18.5,
+                    22.1,
+                    11.7,
+                    17.2,
+                    10.4,
+                    17,
+                    10.1,
+                    15,
+                    10.9,
+                    13.1,
+                    13.3,
+                    10.8,
+                    9.8,
+                    8.6,
+                    17.3,
+                    12.7,
+                    8.8
+
+                ],
+                [
+                    "2006-2010",
+                    34.2,
+                    18.8,
+                    33.6,
+                    31.8,
+                    24.9,
+                    22.3,
+                    22.1,
+                    21.5,
+                    19.3,
+                    17.9,
+                    17.4,
+                    17.4,
+                    16.3,
+                    16,
+                    14.9,
+                    14.1,
+                    13.6,
+                    13.4,
+                    11.3,
+                    11
+
+                ]
+
+            ]
+        }
+    }]
+}

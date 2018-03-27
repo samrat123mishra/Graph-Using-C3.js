@@ -1,0 +1,150 @@
+{
+    "chartHeading": "Gasto público en educación (% del PIB)",
+    "chartInstruction": "",
+    "chartType": "line",
+    "sourceRef":"Fuente: http://data.uis.unesco.org",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Mediados de los 80",
+                    "Mediados de los 90",
+                    "Mediados  de los 2010"
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 9 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Gasto público en educación (por ciento del PIB)",
+            "alias": "Gasto público en educación (por ciento del PIB)",
+            "data": {
+                "columns": [
+                    [
+                        "Argentina",
+                       2.60715,
+		       3.73403,
+		       5.32549
+                    ],
+		      [
+                        "Bolivia",
+                       0,
+		       4.65741,
+		       7.28546
+                    ],
+		      [
+                        "Brasil",
+                       0,
+		       4.47307,
+		       5.99395      
+                    ],
+		      [
+                        "Chile",
+                       4.42487,
+		       2.88348,
+		       4.92324
+                    ],
+		      [
+                        "Colombia",
+                       1.72816,
+		       3.94,
+		       4.49099
+                    ],
+		      [
+                        "Cuba",
+                      8.36909,
+		      5.61948,
+		      12.83727
+                    ],
+		    [
+                        "Rep. Dominicana",
+                      1.59754,
+		      1.2338,
+		      1.91
+                    ],
+		    [
+                        "Ecuador",
+                       4.20342,
+		       1.99764,
+		       4.96322
+                    ],
+		    [
+                        "El Salvador",
+                       0,
+		       2.32,
+		       3.54506
+                    ],
+		    [
+                        "Guatemala",
+                       0,
+		      1.5637,
+		      2.95595
+                    ],
+		    [
+                        "México",
+                       0,
+		       3.86208,
+		       5.31348
+                    ],
+		     [
+                        "Nicaragua",
+                      3.26241,
+		      2.23,
+		      4.48549
+                    ],
+		     [
+                        "Panamá",
+                       3.53567,
+		       4.09432,
+		       3.18772
+                    ],
+		     [
+                        "Paraguay",
+                      1.54137,
+		      4.31,
+		      4.9554
+                    ],
+		     [
+                        "Perú",
+                       0,
+		       3.10976,
+		       3.97865
+                    ],
+		    [
+                        "Venezuela",
+                      3.88187,
+		      5.17,
+		      0
+                    ],
+		    [
+                        "Latinoamérica (promedio)",
+                       3.515155,
+		       3.449923125,
+		       5.076758
+                    ]
+                ]
+            }
+        }
+    ]
+}

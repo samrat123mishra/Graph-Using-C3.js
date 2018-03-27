@@ -1,0 +1,193 @@
+{
+    "chartHeading": "Matriculación bruta en escuela secundarias alrededor de 1980 y 2015",
+    "chartInstruction": "Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "line",
+    "sourceRef":"Fuente: United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Alrededor de 1980",
+                    "Alrededor de 2015"
+              
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 10 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Matriculación bruta en escuelas secundarias (Porcentaje)",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Guatemala",
+
+                        18.34934044,
+                        65.62670135
+
+
+                        
+                    ],
+                    [
+                       "Costa Rica",
+                       46.95677948,
+                       123.0857315
+
+                                           
+                    ],
+                    [
+                        "Colombia",
+                        39.91793823,
+                        98.09185791
+
+                                            
+                    ],
+                    [
+                       "Honduras",
+                        29.44621086,
+                        70.77558899
+                 
+                    ],
+                    [
+                        "El Salvador",
+                    
+                           34.15721893,
+                           79.42540741
+                  
+                    ],
+                    [
+                        "Ecuador",
+                        49.73735046,
+                        107.7006912
+                    
+                                            
+                    ],
+                    [
+                        "México",
+                        44.88790131,
+                        90.54969025
+
+                    
+                                            
+                    ],
+                    [
+                        "Latinoamérica promedio",
+                        37.63610567,
+                        90.75080981
+
+                    
+                                            
+                    ],
+                    [
+                        "Rep. Dominicana",
+                    40.57587814,
+                    77.82071686
+
+                                            
+                    ],
+                    [
+                        "Venezuela",
+                    47.01205063,
+                    89.66400909
+
+                                               
+                    ],
+                    [
+                        "Argentina",
+                    56.45949173,
+                    106.7779007
+
+                                             
+                    ],
+                    [
+                        "Perú",
+                    57.76662827,
+                    95.74452209
+
+                    ],
+                    [
+                        "Chile",
+                   64.11723328,
+                   100.6461868
+
+
+                    ],
+                    [
+                         "Uruguay",
+                    65.39906311,
+                    95.07186127
+
+                        
+                    ],
+                    [
+                        "Cuba",
+                    77.5809021,
+                    100.3998718
+
+                        
+                    ],
+                    [
+                        "Panamá",
+                    61.14884186,
+                    75.55860138
+
+                    ],
+                    [
+                        "Bolivia",
+                    0,
+                    86.40506744
+
+                    ],
+                    [
+                        "Puerto Rico",
+                   0,
+                   81.28881836
+
+                    ],
+                    [
+                         "Brasil",
+                    0,
+                    99.65097046
+
+                    ],
+                    [
+                        "Paraguay",
+                    26.67432976,
+                    0
+
+                    ],
+
+                    [
+                        "Nicaragua",
+                        37.62976074,
+                        0
+
+                    ]
+
+                ]
+            }
+        }
+    ]
+}

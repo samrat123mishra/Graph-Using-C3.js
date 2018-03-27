@@ -1,0 +1,90 @@
+{
+    "chartHeading": "Porcentaje de rentas mineras captadas por el estado",
+    "chartInstruction": "Instructions: Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "bar",
+    "sourceRef":"Fuente:  Heidrich and Ortiz Loaiza, p. 127., basado en CEPAL (2013).",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Argentina",
+		    "Bolivia",
+		    "Brasil", 
+		    "Chile (total)",
+		    "Chile (privado)",
+		    "Colombia", 
+		    "Republica Dominicana",
+		    "Ecuador*", 
+		    "Guatemala", 
+		    "Honduras", 
+		    "Peru", 
+		    "Venezuela*"
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 9 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Porcentaje de rentas mineras captadas por el estado",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Periodo neoliberal (1995-2004)",
+                       22,
+                       17,
+                        31,
+                        22,
+                        4,
+                        48,
+                        12,
+                        18,
+                        12,
+                        10,
+                        11,
+			21
+
+                       
+                    ],
+		     [
+                        "Periodo extractivista (2009-2014)",
+                        39,
+                        57,
+                        38,
+                        35,
+                        16,
+                        37,
+                        36,
+                        50,
+                        12,
+                        11,
+                        27,
+			59
+                       
+                    ]
+                ]
+            }
+        }
+    ]
+}

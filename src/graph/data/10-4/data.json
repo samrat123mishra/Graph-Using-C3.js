@@ -1,0 +1,63 @@
+{
+    "chartHeading": "(Porcentaje de consumo total de energía)",
+    "chartInstruction": "",
+    "chartType": "bar",
+    "sourceRef":"Fuente:  http://global-climatescope.org/en/region/lac/",
+    "settings": {
+        "axis": {
+            "x": {
+                "label": {
+                    "text": "*Energía limpia:  biomasa, viento, micro-hídrica, solar, geotermal",
+                    "position": "outer-center"
+                },
+                "type": "category",
+                "categories": [
+                    "Latinoamérica y el Caribe",
+                    "Asia",
+                    "África",
+		    "Medio Oriente y África del Norte"             
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 9 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Energía limpia*, por región, 2015 ",
+            "alias": "",
+            "data": {
+                "columns":
+                        [
+                    [
+"Energía limpia*, por región, 2015",
+                      12,
+                      10,
+                      3,
+                      1
+           
+                    ]
+                    
+                ]
+            }
+        }
+    ]
+}

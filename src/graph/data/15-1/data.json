@@ -1,0 +1,84 @@
+{
+    "chartHeading": "Nivel de comodidad ante la diversidad sexual ",
+    "chartInstruction": "¿Cuán cómodo se siente usted sociabilizando con gente que se encuentra abiertamente atraída de modo romántico o sexual a otra persona del mismo sexo?",
+    "chartType": "bar",
+    "sourceRef":"Fuente : http://ilga.org/downloads/ILGA_RIWI_Minorities_Report_2017_Attitudes_to_sexual_and_gender_minorities.pdf",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "África del Norte",
+                    "África del Sub-Sahara",
+                    "Sudamérica",
+                    "Caribe",
+                    "Centroamérica",
+                    "Norteamérica",
+                    "Asia Central",
+                    "Medio Oriente",
+                    "Sur de Asia",
+                    "Sureste de Asia",
+                    "Asia Oriental",
+                    "Europa Occidental",
+                    "Europa Oriental"
+                ]
+            },
+            "rotated": true
+        },
+
+
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": true
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Con respecto a personas LGB",
+        "alias": "",
+        "data": {
+            "columns": [
+                ["Cómodo", 37, 36, 45, 43, 45, 51, 22, 33, 40, 48, 31, 48, 31],
+                ["Ni Ni", 17, 16, 35, 26, 35, 21, 24, 21, 17, 23, 33, 32, 34],
+                ["Incómodo", 46, 47, 21, 32, 21, 28, 55, 45, 43, 30, 35, 20, 35]
+
+            ],
+
+            "groups": [
+                ["Cómodo", "Ni Ni", "Incómodo"]
+            ]
+
+        }
+
+    },
+    {
+        "audioPath": "",
+        "tabHeading": "Con respecto a personas Trans",
+        "alias": "",
+        "data": {
+            "columns": [
+                ["Cómodo", 36, 48, 49, 43, 45, 57, 19, 36, 42, 52, 47, 49, 33],
+                ["Ni Ni", 19, 17, 34, 29, 34, 23, 27, 24, 19, 24, 32, 33, 34],
+                ["Incómodo", 46, 35, 17, 27, 17, 21, 54, 39, 38, 23, 17, 18, 33]
+
+            ],
+
+            "groups": [
+                ["Cómodo", "Ni Ni", "Incómodo"]
+            ]
+
+        }
+
+    }]
+}

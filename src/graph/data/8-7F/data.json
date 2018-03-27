@@ -1,0 +1,73 @@
+{
+    "chartHeading": "Tasa de matriculación en las escuelas, Ecuador",
+    "chartInstruction": "",
+    "chartType": "line",
+    "sourceRef":"Fuente: SEDLAC http://ftp.iza.org/pp49.pdf",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "2004",
+                    "2005",
+                    "2006",
+                    "2007",
+                    "2008",
+                    "2009",
+                    "2010"
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 7
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Tasa de matriculación en las escuelas, Ecuador",
+        "alias": "",
+        "data": {
+            "columns": [
+                [
+                    "No-beneficiarios",
+                    67,
+                    68,
+                    70,
+                    72,
+                    72,
+                    75,
+                    78
+
+                ],
+
+                [
+                    "Beneficiarios",
+                    42,
+                    48,
+                    47,
+                    53,
+                    55,
+                    55,
+                    61
+
+                ]
+            ]
+        }
+    }]
+}

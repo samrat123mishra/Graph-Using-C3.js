@@ -1,0 +1,128 @@
+{
+    "chartHeading": "Cobertura neta en educación superior por quintil de ingreso en 2015",
+    "chartInstruction": "Instructions:",
+    "chartType": "bar",
+    "sourceRef":"Fuente: Bayer. H.  04/10/2017  (2017. Oct. 4). Gratuidad no significa equidad.  La Situación.cl <br/> <br/> http://lasituacion.cl/2017/10/04/gratuidad-no-significa-equidad/?platform=hootsuite",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Bolivia",
+                    "Argentina",
+                    "Brasil",
+                    "Chile",
+                    "Colombia",
+                    "Costa Rica",
+                    "Ecuador",
+                    "México",
+                    "Perú",
+                    "Uruguay",
+                    "Venezuela"
+
+                ]
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Cobertura neta en educación superior por quintil de ingreso en 2015",
+        "alias": "",
+        "data": {
+            "columns": [
+                [
+                    "Quintil 1 (más pobre)",
+                    17.6,
+                    24.8,
+                    6.2,
+                    28.8,
+                    11.5,
+                    3.8,
+                    10.3,
+                    15.6,
+                    15.5,
+                    4.8,
+                    16.9
+                ],
+                [
+                    "Quintil 2",
+                    22.1,
+                    33.5,
+                    9.6,
+                    33.6,
+                    14,
+                    10.4,
+                    13.5,
+                    15.5,
+                    30.5,
+                    12.4,
+                    18.6
+
+
+                ],
+                [
+                    "Quintil 3",
+                    29.9,
+                    35.2,
+                    16,
+                    35.2,
+                    22.1,
+                    15.5,
+                    17.5,
+                    21.4,
+                    39.3,
+                    21.5,
+                    21.6
+
+
+                ],
+                [
+                    "Quintil 4",
+                    36.4,
+                    38.9,
+                    25.7,
+                    46.1,
+                    32.4,
+                    29.3,
+                    25.5,
+                    28,
+                    43.9,
+                    33.4,
+                    33.4
+
+
+                ],
+                [
+                    "Quintil 5 (más rico)",
+                    55,
+                    43.9,
+                    50.3,
+                    63.2,
+                    52.4,
+                    57.8,
+                    41.2,
+                    46,
+                    63.2,
+                    56.1,
+                    52.8
+
+
+                ]
+            ]
+        }
+    }]
+}

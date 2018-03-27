@@ -1,0 +1,83 @@
+{
+    "chartHeading": "",
+    "chartInstruction": "Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "line",
+    "sourceRef":"Fuente: Basado en López-Alonso, Moramay, 'Living Standards of the Mexican Laboring Classes, 1850-1950: An Anthropometric Approach,' in Ricardo D. Salvatore, John H. Coatsworth, and Amílcar E. Challú, eds., Living Standards in Latin American History.  Cambridge, MA:  David Rockefeller Center Series on Latin American Studies, 2010.",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "1870",
+                    "1880",
+                    "1890",
+                    "1900",
+                    "1910",
+                    "1920"
+                ]
+            }
+
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "tabHeading": "Estatura promedio de varones adultos (en centímetros)",
+            "alias": "Estatura promedio de varones adultos (en centímetros)",
+            "data": {
+                "columns": [
+                    [
+                        "España",
+                        162.3,
+                        163,
+                        163.4,
+                        164.2,
+                        165.1,
+                        164.4
+                    ],
+                    [
+                        "Italia",
+                        162.7,
+                        162.7,
+                        163.1,
+                        163.8,
+                        164.1,
+                        164.7
+                    ],
+                    [
+                        "Colombia",
+                        167.8,
+                        168.8,
+                        168.5,
+                        168.5,
+                        168.4,
+                        168.4
+                    ],
+                    [
+                        "México",
+                        165.8,
+                        164.7,
+                        163.4,
+                        163.8,
+                        164.3,
+                        163
+                    ]
+                ]
+            }
+        }
+
+
+    ]
+}

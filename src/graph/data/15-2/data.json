@@ -1,0 +1,88 @@
+{
+    "chartHeading": "Derechos LGBTI en Latinoamérica y El Caribe 1999 vs. 2016 (% del total)",
+    "chartInstruction": "",
+    "chartType": "scatter",
+    "sourceRef":"Fuentes:  Elaboración propia con datos de: http://en.wikipedia.org/wiki/LGBT_rights_by_country_or_territory; and http://old.ilga.org/Statehomophobia/ILGA_State_Sponsored_Homophobia_2013.pdf",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Despenalización (1)",
+                    "Uniones civiles (2)",
+                    "Matrimonio (3)",
+                    "Adopciones (4)",
+                    "Servicio militar (5)",
+                    "Anti-Discriminación (6)",
+                    "Identidad de género (7)",
+                    "Crímenes de odio (8)",
+                    "Cambio de nombre en documentos (9)"
+
+              
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 10 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+
+
+
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Derechos LGBTI en Latinoamérica y el Caribe 1999 v. 2016",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "1999",
+                        57.1,
+                        2.4,
+                        0,
+                        0,
+                        30.9,
+                        9.5,
+                        7.1,
+                        0,
+                        0
+ 
+                       
+                    ],
+                    [
+                        "2016",
+                        78.6,
+                        26.2,
+                        14.3,
+                        16.7,
+                        54.7,
+                        47.6,
+                        28.6,
+                        23.8,
+                        21.4
+
+
+                    ]
+
+                ]
+            }
+        }
+    ]
+}

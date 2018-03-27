@@ -1,0 +1,58 @@
+{
+    "chartHeading": "Gráfico 00-1:  Eventos noticiosos reportados en los medios mundiales, de enero de 1979 a agosto de 2013",
+    "chartInstruction": "",
+    "sourceRef":"Fuentes:http://geography.oii.ox.ac.uk/?page=geographic_focus_world_media",
+    "chartType": "line",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Asia",
+                    "EE.UU./Canadá",
+                     "Europa",
+                     "Oriente medio y África del Norte",
+                     "Africa del Sub-Sahara",
+                     "América Latina y el Caribe",
+                     "Oceanía"
+
+                ]
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "audioPath": "",
+            "tabHeading": "Eventos noticiosos reportados en los medios mundiales, de enero de 1979 a agosto de 2013",
+            "alias": "",
+            "data": {
+                "columns": [
+                    [
+                        "Eventos noticios reportados (en millones)",
+                        32.6,
+                        31.6,
+                        28.2,
+                        23.5,
+                        13.4,
+                        6.5,
+                        3.4
+
+                    ]   
+                ]
+            }
+        }
+    ]
+}

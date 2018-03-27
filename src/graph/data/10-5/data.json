@@ -1,0 +1,163 @@
+{
+    "chartHeading": "Fuente primaria de energía renovable, Latinoamérica y demás regiones del mundo, 2013",
+    "chartInstruction": "",
+    "chartType": "bar",
+    "sourceRef":"Fuente: International Energy Agency (IEA)  Advanced Statistics, https://www.iea.org/statistics/statisticssearch/report/?year=2013&country=ARGENTINA&product=Balances",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Guatemala",
+                    "África",
+                    "Paraguay",
+                    "Honduras",
+                    "Nicaragua",
+                    "Uruguay",
+                    "Brasil",
+                    "Chile",
+                    "Asia S/ China",
+                    "América Latina",
+                    "Perú",
+                    "El Salvador",
+                    "Costa Rica",
+                    "Bolivia",
+                    "Colombia",
+                    "Mundo",
+                    "Panamá",
+                    "Unión Europea",
+                    "Ecuador",
+                    "México",
+                    "EE.UU.",
+                    "Argentina",
+                    "China",
+                    "Venezuela",
+                    "Medio Oriente"
+
+
+                ],
+                "tick": {
+                    "rotate": 90,
+                    "multiline": false
+                },
+                "height": 100
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": true
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Chart Title",
+        "alias": "",
+        "data": {
+            "columns": [
+                [
+                    "Bioenergía y desperdicio",
+                    62.76,
+                    48.19,
+                    43.74,
+                    43.43,
+                    41.18,
+                    31.89,
+                    27.58,
+                    26.72,
+                    22.49,
+                    16.00,
+                    14.22,
+                    14.21,
+                    13.84,
+                    12.79,
+                    10.97,
+                    9.57,
+                    8.91,
+                    8.77,
+                    5.60,
+                    4.66,
+                    4.56,
+                    3.96,
+                    3.91,
+                    1.08,
+                    0.13
+
+                ],
+                [
+                    "Geotermal solar",
+                    1.51,
+                    0.29,
+                    0.00,
+                    0.52,
+                    17.96,
+                    0.26,
+                    0.38,
+                    0.17,
+                    1.72,
+                    1.90,
+                    0.12,
+                    33.62,
+                    24.76,
+                    0.00,
+                    0.01,
+                    1.21,
+                    0.00,
+                    2.27,
+                    0.06,
+                    1.92,
+                    1.24,
+                    0.05,
+                    1.26,
+                    0.00,
+                    0.03
+
+                ],
+                [
+
+                    "Hídrica",
+                    3.32,
+                    1.33,
+                    105.10,
+                    4.54,
+                    1.11,
+                    15.34,
+                    11.45,
+                    4.39,
+                    1.71,
+                    8.00,
+                    9.42,
+                    3.86,
+                    12.11,
+                    2.79,
+                    12.60,
+                    2.44,
+                    11.15,
+                    1.96,
+                    7.16,
+                    1.25,
+                    1.07,
+                    4.24,
+                    2.68,
+                    10.45,
+                    0.30
+
+                ]
+
+
+            ],
+            "groups": [
+                ["Bioenergía y desperdicio", "Geotermal solar", "Hidrica"]
+            ]
+        }
+    }]
+}

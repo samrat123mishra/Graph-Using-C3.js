@@ -1,0 +1,101 @@
+{
+    "chartHeading": "Porcentaje de escaños ocupados por mujeres, países de las Américas y demás regiones, 2017 ((Sólo cámara baja)",
+    "chartInstruction": "Instructions: Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "bar",
+    "sourceRef":"Fuente:  http://www.un.org/sustainabledevelopment/blog/2017/03/womens-political-parity-slow-to-grow-as-un-launches-latest-women-in-politics-map/#prettyPhoto[gallery24536]/0/",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Bolivia",
+                    "Cuba",
+                    "Nicaragua",
+                    "México",
+                    "Países Nórdicos",
+                    "Ecuador",
+                    "Argentina",
+                    "Costa Rica",
+                    "El Salvador",
+                    "Perú",
+                    "Rep. Dominicana",
+                    "Honduras",
+                    "Europa (sin países nórdicos)",
+                    "Africa Sub-Sahara",
+                    "Venezuela",
+                    "Uruguay",
+                    "Asia",
+                    "EE.UU.",
+                    "Estados árabes",
+                    "Colombia",
+                    "Panamá",
+                    "Chile",
+                    "Pacífico",
+                    "Paraguay",
+                    "Guatemala",
+                    "Brasil"
+
+                ],
+                "tick": {
+                    "rotate": 90,
+                    "multiline": false
+                },
+                "height": 140
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+        "audioPath": "",
+        "tabHeading": "Crecimiento promedio per cápita del PBI:  Regiones principales, 1500-1998",
+        "alias": "",
+        "data": {
+            "columns": [
+                [
+                    "Porcentaje",
+                    53.1,
+                    48.9,
+                    45.7,
+                    42.6,
+                    41.7,
+                    41.6,
+                    38.9,
+                    35.1,
+                    32.1,
+                    27.7,
+                    26.8,
+                    25.8,
+                    25.0,
+                    23.8,
+                    22.2,
+                    20.2,
+                    19.6,
+                    19.1,
+                    18.9,
+                    18.7,
+                    18.3,
+                    15.8,
+                    15.0,
+                    13.8,
+                    12.7,
+                    10.7
+
+
+                ]
+            ]
+        }
+    }]
+}

@@ -1,0 +1,78 @@
+{
+    "chartHeading": "Resultados de cuotas de género",
+    "chartInstruction": "",
+    "chartType": "scatter",
+    "sourceRef":"Fuente: http://www.idea.int/data-tools/data/gender-quotas/database",
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                     "Por partido, voluntarias",
+                    "Por partido, voluntarias y cuotas legislativas",
+                    "Cuotas legislativas",
+                     "Cuotas legislativas y constitucionales",
+                      "Por partido, voluntarias, cuotas legislativas y constitucionales"
+              
+                ],
+                "tick": {
+                    "culling": {
+                        "max": 20 
+                    }
+                }
+            }
+        },
+        "point": {
+            "r": 5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+
+
+
+    "graphData": [
+        {
+            "audioPath": "",
+            "tabHeading": "Resultados de las cuotas por gÉnero",
+            "alias": "",
+            "showInLegend": true,
+            "markertype": "Diamond",
+            "data": {
+                "columns": [
+                    [
+                        "Porcentaje promedio de legisladoras '98",
+                        11.65,
+                        10.64285714,
+                        9.6,
+                       16.75,
+                        22.5
+
+ 
+                       
+                    ],
+                    [
+                        "Porcentaje promedio de legisladoras '14",
+                     14.55,
+                     18.89042857,
+                     20.86,
+                     31.2,
+                     37
+
+                    ]
+
+
+                ]
+            }
+        }
+    ]
+}

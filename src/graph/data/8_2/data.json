@@ -1,0 +1,166 @@
+{
+    "chartHeading": "<b>Cambios poblacionales por nivel de ingresos</b>",
+    "chartInstruction": "Este gráfico ofrece una vista detallada de los cambios en los niveles de ingresos entre 1993 y 2013. Puede ver varios puntos de vista: cambios en la población rural, cambios en la población urbana y cambios en la población de América Latina en general. Ponga el cursor sobre los diferentes nodos del gráfico para ver datos detallados de cada punto. También puede hacer clic para ocultar / revelar los diferentes niveles de ingresos dentro de cada población en el gráfico.",
+    "chartType": "line",
+    "showAll": false,
+    "settings": {
+        "axis": {
+            "x": {
+                "type": "category",
+                "categories": [
+                    "Circa 1993",
+                    "Circa 2002",
+                    "Circa 2013"
+                ]
+            }
+        },
+        "point": {
+            "r": 1.5
+        },
+        "tooltip": {
+            "grouped": false
+        },
+        "grid": {
+            "x": {
+                "show": true
+            },
+            "y": {
+                "show": true
+            }
+        }
+    },
+    "graphData": [{
+            "tabHeading": "Población rural",
+            "alias": "rural",
+            "data": {
+                "columns": [
+                    [
+                        "Residual",
+                        1000000,
+                        0,
+                        1000000
+                    ],
+                    [
+                        "Clase media",
+                        12000000,
+                        9000000,
+                        20000000
+                    ],
+                    [
+                        "Vulnerabilidad",
+                        34000000,
+                        29000000,
+                        43000000
+                    ],
+                    [
+                        "Pobreza moderada",
+                        24000000,
+                        22000000,
+                        23000000
+                    ],
+                    [
+                        "Pobreza extrema",
+                        57000000,
+                        49000000,
+                        28000000
+                    ],
+                    [
+                        "Total",
+                        128000000,
+                        109000000,
+                        115000000
+                    ]
+                ]
+            }
+        },
+        {
+            "tabHeading": "Población urbana",
+            "alias": "urban",
+            "data": {
+                "columns": [
+                    [
+                        "Residual",
+                        7000000,
+                        9000000,
+                        15000000
+                    ],
+                    [
+                        "Clase media",
+                        79000000,
+                        99000000,
+                        172000000
+                    ],
+                    [
+                        "Vulnerabilidad",
+                        118000000,
+                        150000000,
+                        182000000
+                    ],
+                    [
+                        "Pobreza moderada",
+                        51000000,
+                        66000000,
+                        52000000
+                    ],
+                    [
+                        "Pobreza extrema",
+                        61000000,
+                        77000000,
+                        40000000
+                    ],
+                    [
+                        "Total",
+                        316000000,
+                        401000000,
+                        461000000
+                    ]
+                ]
+            }
+        },
+        {
+            "tabHeading": "Población total",
+            "alias": "total",
+            "data": {
+                "columns": [
+                    [
+                        "Residual",
+                        8000000,
+                        9000000,
+                        16000000
+                    ],
+                    [
+                        "Clase media",
+                        91000000,
+                        108000000,
+                        192000000
+                    ],
+                    [
+                        "Vulnerabilidad",
+                        152000000,
+                        179000000,
+                        225000000
+                    ],
+                    [
+                        "Pobreza moderada",
+                        75000000,
+                        88000000,
+                        75000000
+                    ],
+                    [
+                        "Pobreza extrema",
+                        118000000,
+                        126000000,
+                        68000000
+                    ],
+                    [
+                        "Total",
+                        444000000,
+                        510000000,
+                        576000000
+                    ]
+                ]
+            }
+
+        }
+    ]
+}
